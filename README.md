@@ -9,19 +9,26 @@ Demo App and Installing guide
 ## 2. Clone this app in Github desktop
 
 ## 3. Open app in php storm and create new laravel app
+	
 	```
 	$ laravel new src
 	```
+	
 	Alternatively:
+	
 	```
 	$ composer create-project --prefer-dist laravel/laravel src
 	```
+
 ### Alternatively:
+	
 	``` 
 	$ cd /\*local-github-project\*/ 
 	$ laravel new src 
 	```
+	
 	alternatively: 
+	
 	``` 
 	$ composer create-project --prefer-dist laravel/laravel src
 	``` 
