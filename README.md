@@ -10,28 +10,28 @@ Demo App and Installing guide
 
 ## 3. Open app in php storm and create new laravel app
 	
-	```
-	$ laravel new src
-	```
+```
+$ laravel new src
+```
 	
 	Alternatively:
 	
-	```
-	$ composer create-project --prefer-dist laravel/laravel src
-	```
+```
+$ composer create-project --prefer-dist laravel/laravel src
+```
 
 ### Alternatively:
 	
-	``` 
-	$ cd /\*local-github-project\*/ 
-	$ laravel new src 
-	```
+``` 
+$ cd /\*local-github-project\*/ 
+$ laravel new src 
+```
 	
-	alternatively: 
-	
-	``` 
-	$ composer create-project --prefer-dist laravel/laravel src
-	``` 
+alternatively: 
+
+``` 
+$ composer create-project --prefer-dist laravel/laravel src
+``` 
 	
 
 # Slack
