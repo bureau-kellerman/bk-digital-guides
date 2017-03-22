@@ -1,4 +1,4 @@
-# glowing-spoon
+# BK Digital Guides, how to speak laravel.
 This demo app is a setup and installing guide for making new
 repositories with github. This is also the documentation for the laravel
 working way.
