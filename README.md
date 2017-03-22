@@ -17,11 +17,23 @@ working way.
 
 # Installation new (laravel) app <a name="create-and-install"></a>
 
-## Step 1. Create your new app on github.com
+We follow the next directory strucutre.
+
+```
+project_root/
+  README.md 	– Global support for the project such as login credentials.
+  docs/         – Ref documents for the project.
+  src/          – Source code (here the laravel app)
+    README.md	– Specific info on the application such as configrations, entry urls.
+    public/     – Your application code
+  tests/        – Tests documents and entrypoints
+```
+
+### Step 1. Create your new app on github.com
 On the left side of your profile page, under "Organizations", click the Bureau Kellerman or For Sale account
 icon for your organization. Create a new repository.
 
-## Step 2. Clone this app
+### Step 2. Clone this app
 When your done creating you have to make a clone of this repository. A
 simple way is to clone this app trough the Github desktop app. Download
 the app here https://desktop.github.com.
@@ -32,7 +44,7 @@ Alternatively you can use the command line.
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-## Step 3. Create Laravel app
+### Step 3. Create Laravel app
 Ok. Lets make some code! Open the application in your phpstorm and create a new laravel app
 	
 ```
@@ -42,14 +54,14 @@ $ laravel new src
 Doens't work the `$ laravel` command? Alternatively use this: ```$ composer create-project --prefer-dist laravel/laravel src```
 
 
-### No php storm?
+#### No php storm?
 	
 ``` 
 $ cd /*local-path-to-github-project*/ 
 $ laravel new src 
 ```
 
-## Step 4. Make and commit changes
+### Step 4. Make and commit changes
 When your done you can commit your changes trough the github desktop app.
 
 Alternatively you can use the command line.
@@ -61,7 +73,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 #Updating an existing app	<a name="update"></a>
 
-## Step 1. Clone the app to your machine
+### Step 1. Clone the app to your machine
 A simple way is to clone this app trough the Github desktop app. Download
 the app here https://desktop.github.com.
 
@@ -71,7 +83,7 @@ Alternatively you can use the command line.
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-## Step 2. Make a branch
+### Step 2. Make a branch
 
 A simple way is to create your branch trough the Github Desktop App.
 Click on the branch icon, in the Name field, type a meaningful name for
