@@ -11,7 +11,7 @@ working way.
 	* [Step 2. Clone](#)
 	* [Step 3. Create laravel](#)
 	* [Step 3. Commit changes](#)
-2. [Updating a app](#)
+2. [Updating an existing app](#update)
 
 
 #Installation new (laravel) app <a name="create-and-install"></a>
@@ -58,7 +58,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 	
 
-#Updating a app	
+#Updating an existing app	<a name="update"></a>
 
 ## Step 1. Clone the app to your machine
 A simple way is to clone this app trough the Github desktop app. Download
