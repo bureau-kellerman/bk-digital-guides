@@ -25,6 +25,7 @@ project_root/
   docs/         – Ref documents for the project.
   src/          – Source code (here the laravel app)
     README.md	– Specific info on the application such as configrations, entry urls.
+    app/     	– Your application code
     public/     – Your application code
   tests/        – Tests documents and entrypoints
 ```
@@ -81,6 +82,10 @@ Alternatively you can use the command line.
 
 ``` 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+```
+$ php artisan migrate
 ```
 
 ### Step 2. Make a branch
