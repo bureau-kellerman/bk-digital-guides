@@ -14,6 +14,24 @@ working way.
 2. [Updating an existing app](#update)
 
 
+# Fast summery.. 
+
+Need to be merged with this doc.
+
+1. Install a new github project
+- install laravel-
+- update git
+- setup persmisions
+- created third party db's
+2. Update a github project
+- clone git
+- update
+- Copy and setup your .env file.
+- php artisan key:generate
+- create your database local.
+- php artisan migrate
+
+
 
 # Installation new (laravel) app <a name="create-and-install"></a>
 
